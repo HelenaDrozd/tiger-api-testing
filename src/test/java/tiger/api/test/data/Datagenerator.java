@@ -6,6 +6,7 @@ import java.util.Date;
 
 public class Datagenerator {
 
+// this is fake email generation
 	public static String getEmail() {
 		Faker faker = new Faker();
 		return faker.name().firstName()
